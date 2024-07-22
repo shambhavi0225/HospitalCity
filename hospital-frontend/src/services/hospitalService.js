@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/api/v1/hospitals';
+const API_URL = 'https://hospitalcity-qvkd.onrender.com/api/v1/hospitals';
 
 export const createHospital = async (hospitalData) => {
   return axios.post(`${API_URL}/create`, hospitalData);
